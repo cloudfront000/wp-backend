@@ -13,7 +13,7 @@
         "node": ">=20.0.0"
     },
     "scripts": {
-        "start": "pm2 start . --deep-monitoring --attach --name Guru",
+        "start": "pm2 start index.js --name Guru --deep-monitoring",
         "test": "node test.js"
     },
     "keywords": [
